@@ -19,7 +19,7 @@ public class Capicua {
         if(n>=10){
         //le damos la vuelta al número 
         n2 = n;   //para poder igualar al final añadimos la variante
-        while (n2!=0){
+        while (numeroNoEsCero(n2)){
             cifra = n2 % 10; //coge la cifra del final
             inverso = inverso * 10 + cifra; //va colocandola en unidad,decena,centena, etc...
             n2 = n2 / 10; //va reduciendo el n, eleminando el de atras
@@ -33,4 +33,8 @@ public class Capicua {
         else{System.out.println("Número demasiado pequeño.");}
      }    
    }
+    
+    public static boolean numeroNoEsCero(int num){
+            return num != 0;
+}
 }

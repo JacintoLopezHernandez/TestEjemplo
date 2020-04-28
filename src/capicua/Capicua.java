@@ -5,7 +5,7 @@
  */
 package capicua;
 import java.util.Scanner;
- 
+ //PODEMOS MODIFICAR!!!!!
 public class Capicua {
  
     public static void main(String[] args) {
